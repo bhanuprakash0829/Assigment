@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Assignment level Two</title>
+    <style type="text/css">
+        label{
+            width: 150px;
+            display: inline-block;
+            border-color: lightblue;
+        }
+
+
+        button{
+            background: skyblue;
+        }
+
+
+        input{
+            background-color: rgb(192, 234, 250);
+        }
+
+
+        label{
+            font-style: calc(bold);
+        }
+        fieldset{
+            border-color: lightblue;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+    <form action="" method="">
+        <h1>User Registration Form</h1>
+        <fieldset style="border: 1px dotted; width: 40%;">
+            <legend style="color: blue;">Personal Information</legend>
+
+
+            <label for="fn">Name :</label>
+
+
+            <input id="fn" type="text" name="User name" placeholder="name">
+            <br><br>
+
+
+            <label for="ln">Email Address :</label>
+
+
+            <input for="ln" type="text" name="Email" placeholder="mail@id" required>
+            <br>
+            <p></p>
+            <label for="mail">Password :</label>
+            <input id="mail" type="password" name="User password"  required>
+            <br><br>
+
+
+            <label for="password"> Confirm Password :</label>
+            <input id="password" type="password" name="password"  required>
+        </fieldset>
+
+
+    <fieldset style="border: 1px dotted; width: 40%">
+        <legend style="color: blue;">Address Details</legend>
+
+
+        <label for="fn">Address line one :</label>
+
+
+        <input id="ad1" type="text" name="User name"  required>
+        <br><br>
+
+
+        <label for="ln">Address line 2 :</label>
+
+
+        <input for="Ad2" type="text" name="Address line 2"  required>
+        <br>
+        <p></p>
+        <label for="Town/city :">Town/city :</label>
+        <input  type="text" name="Town/city"  required>
+        <br><br>
+
+
+        <label for="postcode"> Zip/Post code :</label>
+        <input id="zip" type="number" name="zpcode" required>
+    </fieldset>
+    <br>
+    <button>Sign Up</button>
+</body>
+</html>

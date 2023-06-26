@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body{
+            background-color:lightskyblue;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+     <h1>Registration Form</h1>
+    <form action="">
+        <!-- fname -->
+       <label for="Firstname">Firstname:</label>
+        <input type="text" id="Firstname" name="Firstname">
+        <br><br>
+    <!--mname  -->
+        <label for="Middlename">Middlename:</label>
+        <input type="text" id="Middlename" name="Middilename" required>
+        <br><br>
+        <!-- lname -->
+        <label for="Lastname">Lastname:</label>
+        <input type="text" id="Lastname" name="Lastname" required>
+        <br><br>
+        <!-- course -->
+        <label for="Course">Course:</label>
+        <select>
+            <option value="Course">Course</option>
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="MERN Full Stack">MERN Full Stack</option>
+            <option value="Python Full Stack">Python Full Stack</option>
+            <option value="MEAN Full Stack">MEAN Full Stack</option>
+        </select>
+        <br><br>
+    <!-- gender -->
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" name="Gender">Male<br>
+        <input type="radio" name="Gener">Female<br>
+        <input type="radio" name="Gender">Other<br>
+        <br>
+<!-- phone -->
+        <label for="Phone">Phone:</label>
+        <input type="text" name="country code" value="+91" size="1">
+        <input type="text" name="Phone" size="10">
+        <br><br>
+<!-- address -->
+        <label for="Address">Address</label><br>
+        <textarea cols="80" rows="5" value="Address">
+        </textarea>
+        <br><br>
+<!-- email -->
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email">
+        <br><br><br>
+<!-- pwd -->
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password">
+        <br><br><br>
+<!-- re-pwd -->
+        <label for="Re-type passwors">Re-type password</label>
+        <input type="Re-type Password" id="Re-type Password" name="Re-type Password">
+        <br><br>
+<!-- button -->
+        <input type="button"  value="Submit">
+          </form>
+</body>
+</html>
