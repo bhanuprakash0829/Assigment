@@ -1,0 +1,303 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: antiquewhite;
+}
+.contact{
+    display: flex;
+    font-size: smaller;
+    position: relative;
+    left: 100px;
+    gap: 100px;
+    font-size: 10px;
+    gap: 20px;
+    background-color: antiquewhite;
+    justify-content: baseline;
+}
+.hdetails{
+    display: flex;
+    position: relative;
+    left: 800px;
+    gap: 40px;
+    margin: 5px;
+    font-size: smaller;
+    justify-content: flex-end;
+}
+.headerlogo{
+    display: flex;
+    padding-left: 100px;
+    gap: 30px;
+}
+.headerlogo ul{
+    display: flex;
+    gap: 15px; 
+    list-style: none;
+    padding-top: 10px;   
+}
+a{
+    color: black;
+
+    text-decoration:none;
+}
+a:hover{
+    color: lightseagreen;
+    text-decoration: underline;
+}
+.headicon{
+    padding-left: 400px;
+}
+.bgimg1 img{
+    position: relative;
+    width: 100%;
+    height: 400px
+}
+.bgimg2 img{
+    position: relative;
+    /* width: 100%; */
+    height: 398px; 
+    left:760px;
+    bottom: 406px;
+}
+.bgtext p{
+    position: absolute;
+    bottom: 450px;
+    left: 450px;
+    font-size: x-small;
+}
+.bgtext h1{
+    position: absolute;
+    bottom: 360px;
+    left: 350px;
+    font-size: 35px;
+}
+.bgtext h2{
+    position: absolute;
+    bottom: 315px;
+    left: 390px;
+    font-size: 30px;
+}
+.bgtext button{
+    position: absolute;
+    color: white;
+    bottom: 280px;
+    left: 450px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(251, 126, 76);
+    border: none;
+    border-radius: 2px;
+}
+.title P{
+    position: absolute;
+    bottom: 40px;
+    left: 600px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.grid {
+    position: relative;
+    display: flex;
+    left: 350px;
+    gap: 25px;
+    bottom: 360px;
+    width:20px;
+}
+.gridimg img{
+    /* position: relative; */
+    /* left: 300px; */
+    bottom: 350px;
+    width:250px;
+}
+.gridimg p{
+    position: relative;
+    left: 50px;
+    font-size: small;
+}
+.iconstar .fa-star{
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    font-size: small;
+}
+.iconstar p{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    font-size: small;
+}
+.banner2{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 350px;
+    background-color: rgba(180, 152, 152, 0.285);
+}
+.bgimg3 img{
+    position: relative;
+    left: 850px;
+    height: 250px;
+}
+.bgtext1{
+    position: relative;
+    left: 350px;
+    height: 250px;
+    bottom: 200px;
+}
+.bgtext1 p{
+    position: relative;
+    font-size: large;
+    font-weight: bold;
+    right: 35px;
+}
+.bgtext1 .btn2{
+    border-color: rgb(0, 0, 0);
+    font-size: bolder; 
+    position: relative;
+    left: 30px;
+}
+.title2,.title3,.title4{
+    position: relative;
+    bottom: 390px;
+    left: 600px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.card2 {
+    position: relative;
+    display: flex;
+    left: 150px;
+    gap: 25px;
+    bottom: 390px;
+    width:20px;
+}
+.card2img .fa-eye{
+    position: relative;
+    padding-left: 90px;
+}
+.card2 img{
+    height: 350px;
+}
+.card2img p{
+    position: relative;
+    left: 60px;
+    bottom: 15px;
+}
+.card2img .fa-star{
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+}
+.card2img .fa-star+p{
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+}
+.info{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+.infocard{
+    border: solid red 1px;
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    bottom: 400px;
+    left: 150px;
+}
+.infocard img{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.infocard h6{
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+    font-size:smaller;
+    font-weight:lighter;
+}
+.infocard p{
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+.blog{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 105px;
+    bottom: 350px;
+}
+.blog img{
+    border-radius: 9px;
+}
+.title5{
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+    font-size: x-large;
+    font-weight:bolder;
+}
+.social{
+    display: flex;
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    gap: 40px;
+}
+.socialimg1 img,.socialimg2 img,.socialimg3 img,.socialimg4 img{
+    /* gap: 100px; */
+    border-radius: 10px;
+}
+footer{
+    position: absolute;
+    top: 4800px; 
+    background-color: black;
+    color: rgb(210, 206, 206);
+    /* height:400px; */
+    width: 100%; 
+}
+.footerdetails{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 20px;
+    /* border-bottom: 1px solid white; */
+   height: 300px;
+   margin: 0px 80px;
+}  
+footer .about1, .about2{
+   font-size:smaller;
+   width:150px;
+   margin: 30px;
+   /* border: 1px solid white; */
+}
+.about3{
+    font-size:smaller;
+    width:200px;
+    margin: 30px;
+}
+.apps{
+    font-size:smaller;
+    width:400px;
+    margin: 30px;
+}
+footer ul{
+    position: relative;
+    list-style: none;
+    right: 35px;
+    bottom: 20px;
+}
+.footer1{
+    border-top: 1px solid rgb(197, 196, 196);
+    margin: 0px 80px;
+    height: 100px;
+    text-align: center;
+    color: rgb(200, 198, 198);
+}
